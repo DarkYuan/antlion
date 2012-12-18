@@ -10,6 +10,7 @@
 #include <ctime>
 #include <string>
 //#include <Windows.h>
+#include <cstdlib>
 using namespace std;
 
 #include "World.h"
