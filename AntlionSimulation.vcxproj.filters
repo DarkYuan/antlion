@@ -15,33 +15,33 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\Files\Other\Asgn06-AntLions-B\Ant.cpp">
+    <ClCompile Include="World.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Files\Other\Asgn06-AntLions-B\Lion.cpp">
+    <ClCompile Include="Ant.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Files\Other\Asgn06-AntLions-B\main.cpp">
+    <ClCompile Include="Lion.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Files\Other\Asgn06-AntLions-B\Organism.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Files\Other\Asgn06-AntLions-B\World.cpp">
+    <ClCompile Include="Organism.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\Files\Other\Asgn06-AntLions-B\World.h">
+    <ClInclude Include="Ant.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Files\Other\Asgn06-AntLions-B\Ant.h">
+    <ClInclude Include="Lion.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Files\Other\Asgn06-AntLions-B\Lion.h">
+    <ClInclude Include="Organism.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Files\Other\Asgn06-AntLions-B\Organism.h">
+    <ClInclude Include="World.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

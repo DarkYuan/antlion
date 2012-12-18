@@ -10,6 +10,19 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Ant.cpp" />
+    <ClCompile Include="Lion.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Organism.cpp" />
+    <ClCompile Include="World.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Ant.h" />
+    <ClInclude Include="Lion.h" />
+    <ClInclude Include="Organism.h" />
+    <ClInclude Include="World.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{A72D72AE-5DA8-4722-B6F1-4DCF11BF0889}</ProjectGuid>
     <RootNamespace>AntlionSimulation</RootNamespace>
@@ -59,19 +72,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\Files\Other\Asgn06-AntLions-B\Ant.cpp" />
-    <ClCompile Include="..\..\..\..\..\Files\Other\Asgn06-AntLions-B\Lion.cpp" />
-    <ClCompile Include="..\..\..\..\..\Files\Other\Asgn06-AntLions-B\main.cpp" />
-    <ClCompile Include="..\..\..\..\..\Files\Other\Asgn06-AntLions-B\Organism.cpp" />
-    <ClCompile Include="..\..\..\..\..\Files\Other\Asgn06-AntLions-B\World.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\Files\Other\Asgn06-AntLions-B\Ant.h" />
-    <ClInclude Include="..\..\..\..\..\Files\Other\Asgn06-AntLions-B\Lion.h" />
-    <ClInclude Include="..\..\..\..\..\Files\Other\Asgn06-AntLions-B\Organism.h" />
-    <ClInclude Include="..\..\..\..\..\Files\Other\Asgn06-AntLions-B\World.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

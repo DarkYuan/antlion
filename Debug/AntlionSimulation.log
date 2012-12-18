@@ -1,37 +1,36 @@
-﻿Build started 12/18/2012 6:07:26 PM.
-     1>Project "c:\Users\alex newell\documents\visual studio 2010\Projects\AntlionSimulation\AntlionSimulation\AntlionSimulation.vcxproj" on node 2 (build target(s)).
-     1>PrepareForBuild:
-         Creating directory "c:\users\alex newell\documents\visual studio 2010\Projects\AntlionSimulation\Debug\".
-       InitializeBuildStatus:
+﻿Build started 12/18/2012 6:29:29 PM.
+     1>Project "C:\Users\Alex Newell\Documents\Visual Studio 2010\Projects\AntlionSimulation\AntlionSimulation\AntlionSimulation.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
          Creating "Debug\AntlionSimulation.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "..\..\..\..\..\Files\Other\Asgn06-AntLions-B\Ant.cpp" "..\..\..\..\..\Files\Other\Asgn06-AntLions-B\Lion.cpp" "..\..\..\..\..\Files\Other\Asgn06-AntLions-B\main.cpp" "..\..\..\..\..\Files\Other\Asgn06-AntLions-B\Organism.cpp" "..\..\..\..\..\Files\Other\Asgn06-AntLions-B\World.cpp"
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Ant.cpp Lion.cpp main.cpp Organism.cpp World.cpp
          World.cpp
          Organism.cpp
          main.cpp
-     1>c:\users\alex newell\files\other\asgn06-antlions-b\main.cpp(28): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\users\alex newell\files\other\asgn06-antlions-b\main.cpp(38): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\users\alex newell\files\other\asgn06-antlions-b\main.cpp(54): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\users\alex newell\files\other\asgn06-antlions-b\main.cpp(84): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\users\alex newell\files\other\asgn06-antlions-b\main.cpp(85): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\alex newell\documents\visual studio 2010\projects\antlionsimulation\antlionsimulation\main.cpp(28): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\alex newell\documents\visual studio 2010\projects\antlionsimulation\antlionsimulation\main.cpp(38): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\alex newell\documents\visual studio 2010\projects\antlionsimulation\antlionsimulation\main.cpp(54): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\alex newell\documents\visual studio 2010\projects\antlionsimulation\antlionsimulation\main.cpp(84): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\alex newell\documents\visual studio 2010\projects\antlionsimulation\antlionsimulation\main.cpp(85): warning C4018: '<' : signed/unsigned mismatch
          Lion.cpp
          Ant.cpp
          Generating Code...
-     1>c:\users\alex newell\files\other\asgn06-antlions-b\main.cpp(112): warning C4717: 'runSimulation' : recursive on all control paths, function will cause runtime stack overflow
+     1>c:\users\alex newell\documents\visual studio 2010\projects\antlionsimulation\antlionsimulation\main.cpp(112): warning C4717: 'runSimulation' : recursive on all control paths, function will cause runtime stack overflow
        Link:
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\alex newell\documents\visual studio 2010\Projects\AntlionSimulation\Debug\AntlionSimulation.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\AntlionSimulation.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"c:\users\alex newell\documents\visual studio 2010\Projects\AntlionSimulation\Debug\AntlionSimulation.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\alex newell\documents\visual studio 2010\Projects\AntlionSimulation\Debug\AntlionSimulation.lib" /MACHINE:X86 Debug\Ant.obj
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Alex Newell\Documents\Visual Studio 2010\Projects\AntlionSimulation\Debug\AntlionSimulation.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\AntlionSimulation.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Alex Newell\Documents\Visual Studio 2010\Projects\AntlionSimulation\Debug\AntlionSimulation.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Alex Newell\Documents\Visual Studio 2010\Projects\AntlionSimulation\Debug\AntlionSimulation.lib" /MACHINE:X86 Debug\Ant.obj
          Debug\Lion.obj
          Debug\main.obj
          Debug\Organism.obj
          Debug\World.obj
-         AntlionSimulation.vcxproj -> c:\users\alex newell\documents\visual studio 2010\Projects\AntlionSimulation\Debug\AntlionSimulation.exe
+         LINK : C:\Users\Alex Newell\Documents\Visual Studio 2010\Projects\AntlionSimulation\Debug\AntlionSimulation.exe not found or not built by the last incremental link; performing full link
+         AntlionSimulation.vcxproj -> C:\Users\Alex Newell\Documents\Visual Studio 2010\Projects\AntlionSimulation\Debug\AntlionSimulation.exe
        Manifest:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"c:\users\alex newell\documents\visual studio 2010\Projects\AntlionSimulation\Debug\AntlionSimulation.exe;#1" /manifest Debug\AntlionSimulation.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Alex Newell\Documents\Visual Studio 2010\Projects\AntlionSimulation\Debug\AntlionSimulation.exe;#1" /manifest Debug\AntlionSimulation.exe.intermediate.manifest
        FinalizeBuildStatus:
          Deleting file "Debug\AntlionSimulation.unsuccessfulbuild".
          Touching "Debug\AntlionSimulation.lastbuildstate".
-     1>Done Building Project "c:\Users\alex newell\documents\visual studio 2010\Projects\AntlionSimulation\AntlionSimulation\AntlionSimulation.vcxproj" (build target(s)).
+     1>Done Building Project "C:\Users\Alex Newell\Documents\Visual Studio 2010\Projects\AntlionSimulation\AntlionSimulation\AntlionSimulation.vcxproj" (build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:12.18
+Time Elapsed 00:00:08.69
