@@ -9,7 +9,7 @@
 #include <iostream>
 #include <ctime>
 #include <string>
-#include <Windows.h>
+//#include <Windows.h>
 using namespace std;
 
 #include "World.h"
@@ -48,7 +48,7 @@ void splashScreen()
 {
 	// F0 = Notepad
 	// 0A = Matrix
-	system("Color F0"); 
+//	system("Color F0"); 
 	
 	string height = "\n\n\n\n\n\n\n";
 	for (unsigned line = 0; line < h; line++) height += "\n\n";
@@ -102,7 +102,7 @@ void runSimulation()
 		if (antCount == 0 || lionCount == 0) {extTurn = i; break;}
 		else if (i == 100 && !debug) {break;}
 
-		if (!debug) Sleep(500);
+//		if (!debug) Sleep(500);
 		system("cls"); sim.move();
 	}
 
